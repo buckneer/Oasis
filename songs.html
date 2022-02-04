@@ -1,0 +1,397 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <title>title</title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/media.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.min.css">
+
+
+
+
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://use.fontawesome.com/3f0ac38568.js"></script>
+
+    <script>
+    </script>
+
+
+    <!--[if IE 9]>
+		<link rel="stylesheet" type="text/css" media="screen" href="css/style_ie9.css" />
+	<![endif]-->
+</head>
+
+<body>
+
+    <header>
+        <div class="bg-warning py-1 px-5">
+            <div class="container d-flex justify-content-end">
+                <!-- Contact us: &nbsp; <a href="#">+381 61 555 333</a> -->
+                <a class="login text-dark" href="#" data-bs-toggle="modal" data-bs-target="#loginModal"><i class="fa fa-user"></i>&nbsp;Login/Register</a>
+
+            </div>
+
+        </div>
+        <nav id="navbar_top" class="navbar navbar-expand-lg navbar-light">
+            <div id="navbar_container" class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="img/oasis.png" width="50px" height="50px" />Oasis</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      				<span class="navbar-toggler-icon"></span>
+    			</button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+						  Music
+						</a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="upload.html">Upload</a></li>
+                                <li><a class="dropdown-item active" href="#songs-main">Songs</a></li>
+
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" tabindex="-1">Contact</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-rounded btn-warning rounded-lg-3 shadow-lg" type="submit">Search</button>
+                    </form>
+                </div>
+
+            </div>
+            <!-- container-fluid.// -->
+        </nav>
+    </header>
+
+    <div class="main" id="songs-main">
+        <div class="container mt-5">
+            <h1>Top Songs:</h1>
+        </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-1 p-1 d-flex justify-content-center">
+
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="text-warning">Name</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="text-warning">Artist</h5>
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-1 p-2 d-flex justify-content-center">
+                    <img src="pics/play-button.svg" alt="play" height="30" width="30" />
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Nothing else matters</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Metallica</h5>
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <p class="p-2">255</p>
+                    <img src="pics/like-svgrepo-com.svg" alt="menu" height="30" width="30" />
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <img src="pics/noun-kebab-menu-198754.svg" alt="menu" height="25" width="25" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-1 p-2 d-flex justify-content-center">
+                    <img src="pics/play-button.svg" alt="play" height="30" width="30" />
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Sweet Child O' Mine</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Guns 'N' Roses</h5>
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <p class="p-2">120</p>
+                    <img src="pics/like-svgrepo-com.svg" alt="menu" height="30" width="30" />
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <img src="pics/noun-kebab-menu-198754.svg" alt="menu" height="25" width="25" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-1 p-2 d-flex justify-content-center">
+                    <img src="pics/play-button.svg" alt="play" height="30" width="30" />
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Stairway To Heaven</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Led Zeppelin</h5>
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <p class="p-2">400</p>
+                    <img src="pics/like-svgrepo-com.svg" alt="menu" height="30" width="30" />
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <img src="pics/noun-kebab-menu-198754.svg" alt="menu" height="25" width="25" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-1 p-2 d-flex justify-content-center">
+                    <img src="pics/play-button.svg" alt="play" height="30" width="30" />
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Winged Hussars</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Sabaton</h5>
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <p class="p-2">124</p>
+                    <img src="pics/like-svgrepo-com.svg" alt="menu" height="30" width="30" />
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <img src="pics/noun-kebab-menu-198754.svg" alt="menu" height="25" width="25" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-1 p-2 d-flex justify-content-center">
+                    <img src="pics/play-button.svg" alt="play" height="30" width="30" />
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Carolean's Prayer</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Sabaton</h5>
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <p class="p-2">255</p>
+                    <img src="pics/like-svgrepo-com.svg" alt="menu" height="30" width="30" />
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <img src="pics/noun-kebab-menu-198754.svg" alt="menu" height="25" width="25" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-1 p-2 d-flex justify-content-center">
+                    <img src="pics/play-button.svg" alt="play" height="30" width="30" />
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Enter Sandman</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Metallica</h5>
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <p class="p-2">320</p>
+                    <img src="pics/like-svgrepo-com.svg" alt="menu" height="30" width="30" />
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <img src="pics/noun-kebab-menu-198754.svg" alt="menu" height="25" width="25" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-1 p-2 d-flex justify-content-center">
+                    <img src="pics/play-button.svg" alt="play" height="30" width="30" />
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Hail to the King</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Avenged Sevenfold</h5>
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <p class="p-2">132</p>
+                    <img src="pics/like-svgrepo-com.svg" alt="menu" height="30" width="30" />
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <img src="pics/noun-kebab-menu-198754.svg" alt="menu" height="25" width="25" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-1 p-2 d-flex justify-content-center">
+                    <img src="pics/play-button.svg" alt="play" height="30" width="30" />
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Voљela Me Nije Nijedna</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Branimir Štulić</h5>
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <p class="p-2">2015</p>
+                    <img src="pics/like-svgrepo-com.svg" alt="menu" height="30" width="30" />
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <img src="pics/noun-kebab-menu-198754.svg" alt="menu" height="25" width="25" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-1 p-2 d-flex justify-content-center">
+                    <img src="pics/play-button.svg" alt="play" height="30" width="30" />
+                </div>
+                <div class="col-5 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Proљeće Je U Decembru</h5>
+                </div>
+                <div class="col-3 ms-1 p-1 d-flex justify-content-center">
+                    <h5 class="p-2">Branimir Štulić</h5>
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <p class="p-2">1723</p>
+                    <img src="pics/like-svgrepo-com.svg" alt="menu" height="30" width="30" />
+                </div>
+                <div class="col-1 ms-1 p-1 d-flex justify-content-center m-auto">
+                    <img src="pics/noun-kebab-menu-198754.svg" alt="menu" height="25" width="25" />
+                </div>
+            </div>
+            <div class="row mt-1">
+                <div class="col-12 d-flex justify-content-center">
+                    <button class="btn btn-warning">Load More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small mt-lg-5">
+
+        <!-- Footer Elements -->
+        <div class="container">
+
+            <div class="d-flex justify-content-center">
+                <h2>
+                    Socials:
+                </h2>
+            </div>
+
+            <!-- Grid row-->
+            <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-12 py-5">
+                    <div class="mb-5 d-flex justify-content-center">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic">
+                            <i class="fa fa-facebook-f fa-lg white-text me-md-5 me-5 fa-2x"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fa fa-twitter fa-lg white-text me-md-5 me-5 fa-2x"> </i>
+                        </a>
+
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fa fa-instagram fa-lg white-text me-md-5 me-5 fa-2x"> </i>
+                        </a>
+                        <!--Pinterest-->
+                        <a class="pin-ic">
+                            <i class="fa fa-pinterest fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </div>
+                </div>
+                <!-- Grid column -->
+
+            </div>
+            <!-- Grid row-->
+
+        </div>
+        <!-- Footer Elements -->
+
+        <img src="pics/wave.svg" />
+
+        <!-- Copyright -->
+        <div class="footer-copyright text-center py-3 bg-warning text-white">© 2021 Copyright:
+            <a href="https://mdbootstrap.com/" class="text-white"> Miftari Simel</a>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="text" class="form-control" name="username" placeholder="Username" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password" placeholder="Password" />
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" id="rememberMe" class="form-check-input" />
+                            <label class="form-check-label" for="rememberMe">Remember me</label>
+                        </div>
+                        <div class="modal-footer d-block">
+                            <p class="float-start">Don't have account?
+                                <a href="#" data-bs-target="#registerModal" data-bs-toggle="modal" data-bs-dismiss="modal">Register</a>
+                            </p>
+                            <button type="submit" class="btn btn-warning float-end">Login</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="registerModalLabel">Register</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form method="POST">
+                        <div class="mb-3">
+                            <label class="form-label">Email Address</label>
+                            <input type="text" class="form-control" name="username" placeholder="Email" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Username</label>
+                            <input type="text" class="form-control" name="username" placeholder="Username" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Favourite Band</label>
+                            <input type="text" class="form-control" name="username" placeholder="Favourite band" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Password</label>
+                            <input type="password" class="form-control" name="password" placeholder="Password" />
+                        </div>
+                        <div class="modal-footer d-block">
+                            <p class="float-start">Already have account?
+                                <a href="#" data-bs-target="#loginModal" data-bs-toggle="modal" data-bs-dismiss="modal">Login</a>
+                            </p>
+                            <button type="submit" class="btn btn-warning float-end">Register</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
